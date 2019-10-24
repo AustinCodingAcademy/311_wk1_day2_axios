@@ -1,7 +1,7 @@
 {
   "name": "aca-js311-protocol-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Initialize and run the app: `npm install && npm start`.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -x npm run test",
@@ -14,5 +14,16 @@
     "dotenv": "^8.0.0",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleXXEST92/311_wk1_day2_axios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aleXXEST92/311_wk1_day2_axios/issues"
+  },
+  "homepage": "https://github.com/aleXXEST92/311_wk1_day2_axios#readme"
 }

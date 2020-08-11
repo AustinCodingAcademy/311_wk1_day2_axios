@@ -4,11 +4,11 @@ Initialize and run the app: `npm install && npm start`.
 
 ## Overview
 
-You should see some Jest tests. The goal of this excercise is to make all of the tests pass. Feel free to look at the tests folder and examine the logic of the tests. It's ok if you don't understand all of this logic right now.
+You should see some Jest tests. The goal of this exercise is to make all of the tests pass. Feel free to look at the tests folder and examine the logic of the tests. It's ok if you don't understand all of this logic right now.
 
-Also, please note that the urls for all of the axios calls have been provided for you but you will need to `require axios` at the top of the `src/index.js` file to get everything working. 
+Also, please note that the urls for all of the axios calls have been provided for you but you will need to `require axios` at the top of the `src/index.js` file to get everything working.
 
-Let's complete the following functions: 
+Let's complete the following functions:
 
 
 ## discoverMovie

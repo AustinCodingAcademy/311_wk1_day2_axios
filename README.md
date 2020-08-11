@@ -4,11 +4,11 @@ Initialize and run the app: `npm install && npm start`.
 
 ## Overview
 
-You should see some Jest tests. The goal of this excercise is to make all of the tests pass. Feel free to look at the tests folder and examine the logic of the tests. It's ok if you don't understand all of this logic right now.
+You should see some Jest tests. The goal of this exercise is to make all of the tests pass. Feel free to look at the tests folder and examine the logic of the tests. It's ok if you don't understand all of this logic right now.
 
-Also, please note that the urls for all of the axios calls have been provided for you but you will need to `require axios` at the top of the `src/index.js` file to get everything working. 
+Also, please note that the urls for all of the axios calls have been provided for you but you will need to `require axios` at the top of the `src/index.js` file to get everything working.
 
-Let's complete the following functions: 
+Let's complete the following functions:
 
 
 ## discoverMovie
@@ -24,7 +24,7 @@ Let's complete the following functions:
 
 ## getMovieById
 
-* Looking at the result from the last function, you should have seen a lot of properties/data. A lot of that data is not useful to our application. 
+* Looking at the result from the last function, you should have seen a lot of properties/data. A lot of that data is not useful to our application.
 
 * We will return the result similar to the last function but this time append `.then` and just return `result.data`
 
@@ -46,6 +46,6 @@ Let's complete the following functions:
 * If successful, the test will have passed after receiving a `404` status code
 
 
-## Final thoughts 
+## Final thoughts
 
 Hopefully this exercise has given you some insight into using `axios`. We should have seen multiple responses and interacted with the different parts of the response object (data, status, etc). We will continue to use axios in the future as we work with (and build our own) APIs

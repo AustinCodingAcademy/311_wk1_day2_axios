@@ -24,7 +24,7 @@ Let's complete the following functions:
 
 ## getMovieById
 
-* Looking at the result from the last function, you should have seen a lot of properties/data. A lot of that data is not useful to our application. 
+* Looking at the result from the last function, you should have seen a lot of properties/data. A lot of that data is not useful to our application.
 
 * We will return the result similar to the last function but this time append `.then` and just return `result.data`
 
@@ -46,6 +46,6 @@ Let's complete the following functions:
 * If successful, the test will have passed after receiving a `404` status code
 
 
-## Final thoughts 
+## Final thoughts
 
 Hopefully this exercise has given you some insight into using `axios`. We should have seen multiple responses and interacted with the different parts of the response object (data, status, etc). We will continue to use axios in the future as we work with (and build our own) APIs

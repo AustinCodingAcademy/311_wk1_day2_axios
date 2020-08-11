@@ -1,10 +1,11 @@
 // import axios here
 const axios = require('axios')
-
-// Please note that it is normally not considered best practice to commit 
-// api keys to github as it presents a security risk. It is done here only 
+const dotenv = require('dotenv')
+dotenv.config()
+const api_key = process.env.API_Key
+// Please note that it is normally not considered best practice to commit
+// api keys to github as it presents a security risk. It is done here only
 // for practice purposes as we are sharing the same account
-const api_key = 'd771b19ef336ed8381def3a60b574464'
 
 
 const discoverMovie = () => {

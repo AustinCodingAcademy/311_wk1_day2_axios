@@ -5,6 +5,7 @@ const axios = require('axios').default;
 const dotenv = require('dotenv')
 dotenv.config()
 const api_key = process.env.API_KEY
+const environment = process.env.ENV
 // Please note that it is normally not considered best practice to commit 
 // api keys to github as it presents a security risk. It is done here only 
 // for practice purposes as we are sharing the same account
@@ -32,9 +33,10 @@ const getMovieByIdFailure = () => {
 }
 
 
-
+if(environment === "development"){
 module.exports = {
   discoverMovie,
   getMovieById,
   getMovieByIdFailure
+}
 }

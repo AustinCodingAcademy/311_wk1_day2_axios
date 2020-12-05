@@ -42,5 +42,3 @@ module.exports = {
   getMovieById,
   getMovieByIdFailure,
 };
-
-getMovieById(500);

@@ -9,12 +9,18 @@ const discoverMovie = () => {
   const url = `https://api.themoviedb.org/3/discover/movie?api_key=${api_key}`
   // code here
 
-  axios(url).then((response) => {
-    return(response.data.results);
-  })
+  
+
+  // axios(url).then((response) => {
+  //   return(response.data.results);
+  // })
+
+  // axios(url).then((response) => response)
+  // }
+
+  axios(url).then(response => response)
 
   //BUG: NOT PASSING TEXT BECAUSE IT IS RETURNING UNDEFINED OR NULL 
-
 }
 
 const getMovieById = (id) => {

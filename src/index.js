@@ -18,8 +18,8 @@ const discoverMovie = () => {
   // axios(url).then((response) => response)
   // }
 
-  axios(url).then(response => response)
-
+return  axios(url)
+ 
   //BUG: NOT PASSING TEXT BECAUSE IT IS RETURNING UNDEFINED OR NULL 
 }
 

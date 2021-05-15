@@ -17,27 +17,22 @@ const discoverMovie = () => {
 };
 
 
-
+//returning undefined but request made it to endpoint ... how can i see results?
 const getMovieById = (id) => {
-  const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${api_key}`
-  axios(url)
-    .then(function (response){
-    return result.data;
-  });
+  const url = `https://api.themoviedb.org/3/movie/${id}?api_key=${api_key}`;
+  return axios(url).then(response => response.data);
+
 };
 
 
 const getMovieByIdFailure = () => {
   const fakeId = '5783'
-  const url = `https://api.themoviedb.org/3/movie/${fakeId}?api_key=${api_key}`
-  axios(url)
-    .then(function (response){
-      return status; 
-    })
+  const url = `https://api.themoviedb.org/3/movie/${fakeId}?api_key=${api_key}`;
+  return axios(url).then(response => response) //same as response.status
     .catch(function (error){
       return error.response.status;
-    })
-}
+    });
+};
 
 
 module.exports = {
